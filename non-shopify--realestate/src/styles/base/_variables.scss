@@ -1,0 +1,46 @@
+// Colors
+$grey: #999;
+$black: #000;
+$white: #fff;
+$base-border: #eaeaea;
+$brand-color: #a18c46;
+$base-secondary-text: #808080;
+
+
+$base-font-sans-serif: "futura-pt", 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-futura-pt-condensed: "futura-pt-condensed", 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$font-futura-pt-bold: "futura-pt-bold", 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$base-font-serif: 'Times New Roman', 'Times', 'Baskerville', 'Georgia', serif;
+
+
+// Body
+$base-text-color: $black !default;
+$base-background-color: $white !default;
+$font-size-base: 16px !default;
+$line-height-base: 1.5 !default;
+$base-font-family: $base-font-sans-serif !default;
+
+
+// Links
+$base-link-color: $brand-color;
+$base-hover-link-color: $black;
+
+
+// Buttons
+$button-font-size: 14px !default;
+$button-text-color: $brand-color !default;
+$button-text-hover-color: $white !default;
+$button-background-color: transparent !default;
+$button-background-hover-color: $brand-color !default;
+$button-border-color: $brand-color !default;
+$button-border-hover-color: $brand-color !default;
+
+
+// Forms
+$form-element-padding: 10px 12px !default;
+$form-element-border-color: $grey !default;
+$form-element-focus-border-color: $black !default;
+$placeholder-color: $grey !default;
+
+
+$animation-speed: 0.3s;
