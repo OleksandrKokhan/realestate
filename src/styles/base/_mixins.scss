@@ -1,0 +1,18 @@
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &::-moz-placeholder {opacity: 1; @content}
+  &:-moz-placeholder {@content}
+  &:-ms-input-placeholder {@content}
+  &.placeholder {@content}
+}
+
+@mixin animates {
+
+  @include media("≥desktop") {
+    transition: color $animation-speed ease,
+                background $animation-speed ease,
+                border-color $animation-speed ease,
+                box-shadow $animation-speed ease,
+                opacity $animation-speed ease;
+  }
+}
